@@ -1,13 +1,10 @@
-import { Fullscreen } from 'lucide-react'
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
 const Carousel = () => {
   return (
-    <div>
         <div className="carousel w-full">
-  <div id="slide1" className="carousel-item relative w-full">
+  {/* <div id="slide1" className="carousel-item relative w-full">
     <Image
       src={"/images/home-carousel1.jpg"}
       alt={"Carouselimage1"}
@@ -18,7 +15,7 @@ const Carousel = () => {
       <Link href="#slide4" className="btn btn-circle">❮</Link>
       <Link href="#slide2" className="btn btn-circle">❯</Link>
     </div>
-  </div>
+  </div> */}
   <div id="slide2" className="carousel-item relative w-full">
     <img
       src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
@@ -65,7 +62,6 @@ const Carousel = () => {
   </div>
 
 </div>
-    </div>
   )
 }
 

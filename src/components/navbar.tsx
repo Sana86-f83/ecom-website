@@ -3,7 +3,6 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
       <div className="navbar bg-gray-300">
         <div className="navbar-start">
           <div className="dropdown">
@@ -82,7 +81,6 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
-    </div>
   );
 };
 
